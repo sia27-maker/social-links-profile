@@ -1,0 +1,79 @@
+body {
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter, sans-serif;
+  margin-top: 100px;
+}
+
+.container {
+  background-color: hsl(0, 0%, 12%);
+  width: 300px;
+  height: 450px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+
+img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50px;
+  margin-top: 30px;
+  
+}
+
+.name {
+  font-weight: 700;
+  font-size: 17px;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 5px;
+}
+
+.location {
+  font-weight: 400;
+  font-size: 11px;
+  color: hsl(75, 94%, 57%);
+  margin-top: 5px;
+}
+
+.about-job {
+  font-size: 11px;
+  color: hsl(0, 0%, 100%);
+}
+
+.buttons button {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 230px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+ background-color: hsl(75, 94%, 57%);
+ color: hsl(0, 0%, 20%);
+ transition: 1s;
+}
+
+@media (max-width: 275px) {
+  .container {
+    width: 280px;
+  }
+}
+
+
